@@ -1,33 +1,33 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import Oraculo from '../views/Oraculo.vue';
-import Trabalhos from '../views/Trabalhos.vue';
-import Consultoria from '../views/Consultoria.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import Home from "../views/Home.vue";
+import Oraculo from "../views/Oraculo.vue";
+import Trabalhos from "../views/Trabalhos.vue";
+import Mentoria from "../views/Mentoria.vue";
 
 const routes = [
   {
-    path: '/',
-    redirect: '/home',
+    path: "/",
+    redirect: "/home",
   },
   {
-    path: '/home',
-    name: 'Home',
+    path: "/home",
+    name: "Home",
     component: Home,
   },
   {
-    path: '/oraculo',
-    name: 'Oraculo',
+    path: "/oraculo",
+    name: "Oraculo",
     component: Oraculo,
   },
   {
-    path: '/trabalhos',
-    name: 'Trabalhos',
+    path: "/feitiços",
+    name: "Feitiços",
     component: Trabalhos,
   },
   {
-    path: '/consultoria',
-    name: 'Consultoria',
-    component: Consultoria,
+    path: "/mentoria",
+    name: "Mentoria",
+    component: Mentoria,
   },
 ];
 
