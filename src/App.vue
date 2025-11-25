@@ -4,28 +4,28 @@
   >
     <RouterLink
       to="/home"
-      class="hover:text-red-500 transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
+      class="transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
       active-class="bg-red-500 text-white"
     >
       Home
     </RouterLink>
     <RouterLink
       to="/oraculo"
-      class="hover:text-red-500 transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
+      class="transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
       active-class="bg-red-500 text-white"
     >
       Oráculo
     </RouterLink>
     <RouterLink
       to="/feitiços"
-      class="hover:text-red-500 transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
+      class="transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
       active-class="bg-red-500 text-white"
     >
       Feitiços
     </RouterLink>
     <RouterLink
       to="/mentoria"
-      class="hover:text-red-500 transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
+      class="transition-colors duration-300 text-[0.7rem] md:text-[0.9rem] px-3 py-1 rounded-md"
       active-class="bg-red-500 text-white"
     >
       Mentoria

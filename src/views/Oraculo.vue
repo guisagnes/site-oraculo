@@ -400,12 +400,12 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
         <div class="relative">
           <h2
             v-motion-slide-visible-bottom
-            class="text-3xl font-bold text-center tracking-normal mb-20 text-white"
+            class="text-3xl font-bold text-center tracking-normal mb-20 text-white pb-12"
           >
             DEPOIMENTOS DE QUEM JÁ JOGOU
           </h2>
           <ScrollDownArrow
-            class="absolute -bottom-15 left-1/2 -translate-x-1/2"
+            class="absolute my-6 -bottom-15 left-1/2 -translate-x-1/2"
             text=""
           />
         </div>
@@ -442,7 +442,7 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
     </section>
 
     <!-- How it works -->
-    <section class="py-32 px-4 relative z-10">
+    <section class="pt-32 px-4 relative z-10">
       <div class="max-w-3xl mx-auto">
         <h2
           v-motion-slide-visible-bottom
@@ -530,21 +530,9 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
     <!-- CTA / Ultimatum -->
     <section
       id="agendar"
-      class="py-40 px-4 text-center relative overflow-hidden z-10"
+      class="px-4 text-center relative overflow-hidden z-10"
     >
       <div class="relative z-10 max-w-4xl mx-auto">
-        <h2
-          v-motion-pop-visible
-          class="text-[2.125rem] mb-6 md:text-7xl p-12 font-bold text-white tracking-normal bg-black border-white/10"
-        >
-          CHAMADA FINAL
-
-          <ScrollDownArrow
-            class="absolute -bottom-15 left-1/2 -translate-x-1/2"
-            text=""
-          />
-        </h2>
-
         <p
           class="text-xl mt-40 text-gray-400 mb-16 max-w-2xl mx-auto font-light"
         >
