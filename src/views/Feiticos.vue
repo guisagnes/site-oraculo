@@ -111,8 +111,8 @@ const spells = [
           }"
           class="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
-          <ScrollDownArrow text="" />
-        </div>
+      </div>
+      <ScrollDownArrow text="" />
       </div>
     </header>
 

@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import heroBg from "../assets/jogofaca.webp";
+import heroBg from "../assets/MainPhoto.jpg";
 import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 </script>
 
