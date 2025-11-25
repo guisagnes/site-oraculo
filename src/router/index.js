@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Oraculo from "../views/Oraculo.vue";
-import Trabalhos from "../views/Trabalhos.vue";
+import Trabalhos from "../views/Feiticos.vue";
 import Mentoria from "../views/Mentoria.vue";
 
 const routes = [
@@ -28,6 +28,10 @@ const routes = [
     path: "/mentoria",
     name: "Mentoria",
     component: Mentoria,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/home",
   },
 ];
 
