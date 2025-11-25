@@ -52,10 +52,21 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             y: 0,
             transition: { duration: 1000, ease: 'easeOut' },
           }"
-          class="text-[2rem] md:text-[3.5rem] font-medium tracking-tight font-['Google_Sans_Flex'] text-white mb-8 leading-tight"
+          class="text-[2rem] md:text-[3.5rem] font-medium tracking-tight font-['Google_Sans_Flex'] text-white mb-4 leading-tight"
         >
-          Três caminhos.<br />
-          Uma só intenção: ajustar a sua vida onde ela não está mais fluindo.
+          Três caminhos, uma só intenção:
+        </h1>
+        <h1
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :enter="{
+            opacity: 1,
+            y: 0,
+            transition: { delay: 300, duration: 1000, ease: 'easeOut' },
+          }"
+          class="text-[1.6rem] md:text-[3.5rem] font-medium tracking-tight font-['Google_Sans_Flex'] text-white mb-8 leading-tight"
+        >
+          ajustar a sua vida onde ela não está mais fluindo.
         </h1>
 
         <p

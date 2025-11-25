@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import heroBg from "../assets/mata-2.png";
+import heroBg from "../assets/soltura.png";
 import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 
 const spells = [
@@ -15,9 +15,9 @@ const spells = [
       "Remove energias negativas, inveja e peso espiritual. Restaura seu equilíbrio e vitalidade.",
   },
   {
-    title: "Proteção e Blindagem",
+    title: "Proteção",
     description:
-      "Cria um escudo espiritual contra ataques, demandas e energias densas. Para você e sua família.",
+      " Ativa exu de forma que ele contra-ataque demandas e energias densas.",
   },
   {
     title: "União Amorosa",
@@ -25,14 +25,14 @@ const spells = [
       "Harmoniza relacionamentos, traz de volta o entendimento e fortalece os laços afetivos.",
   },
   {
-    title: "Pacto de Prosperidade",
+    title: "Ativação de Prosperidade",
     description:
-      "Alinha sua energia com a abundância. Para quem busca crescimento financeiro e sucesso nos negócios.",
+      "Através de exu do ouro, sua energia se alinhara com a abundância. Para quem busca crescimento financeiro e sucesso nos negócios.",
   },
   {
     title: "Afastamento de Rivais",
     description:
-      "Afasta quem atrapalha seu caminho, seja no amor ou no trabalho, sem causar mal, apenas distanciando.",
+      "Afasta quem atrapalha seu caminho, seja no amor ou no trabalho",
   },
 ];
 </script>
