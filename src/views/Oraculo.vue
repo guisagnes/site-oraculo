@@ -31,7 +31,7 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 
     <!-- Hero Section -->
     <header
-      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 overflow-hidden"
+      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 pb-32 overflow-hidden"
     >
       <!-- Hero Background Image -->
       <div class="absolute inset-0 z-0 select-none pointer-events-none">
@@ -94,15 +94,11 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             transition: { delay: 1500, duration: 1000 },
           }"
           class="absolute bottom-10 left-1/2 -translate-x-1/2"
-        ></div>
+        >
       </div>
-      <div>
-        <ScrollDownArrow
-          class="absolute bottom-10 left-1/2 -translate-x-1/2"
-          text=""
-        />
-      </div>
-    </header>
+    </div>
+    <ScrollDownArrow class="mt-20" text="" />
+  </header>
 
     <!-- The Hook / Problem -->
     <section class="py-32 px-4 relative z-10 text-center overflow-hidden">
@@ -147,12 +143,6 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             <p class="text-sm text-gray-500">Respostas imediatas.</p>
           </div>
         </div>
-      </div>
-      <div>
-        <ScrollDownArrow
-          class="absolute bottom-10 left-1/2 -translate-x-1/2"
-          text=""
-        />
       </div>
     </section>
 
@@ -244,8 +234,10 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             </div>
           </div>
         </div>
+        <div class="mt-12 flex justify-center">
+          <ScrollDownArrow text="" />
+        </div>
       </div>
-      <div></div>
     </section>
 
     <!-- Why Different -->
@@ -404,10 +396,6 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
           >
             DEPOIMENTOS DE QUEM JÁ JOGOU
           </h2>
-          <ScrollDownArrow
-            class="absolute my-6 -bottom-15 left-1/2 -translate-x-1/2"
-            text=""
-          />
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
@@ -438,6 +426,9 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             </div>
           </div>
         </div>
+        <div class="mt-12 flex justify-center">
+          <ScrollDownArrow text="" />
+        </div>
       </div>
     </section>
 
@@ -449,11 +440,6 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
           class="text-[1.6rem] md:text-[2.5rem] font-bold text-center relative mb-16 text-white"
         >
           COMO FUNCIONA
-          <span
-            ><ScrollDownArrow
-              class="absolute -bottom-15 left-1/2 -translate-x-1/2"
-              text=""
-          /></span>
         </h2>
         <div class="grid md:grid-cols-2 gap-6 pt-8">
           <div
@@ -524,6 +510,9 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
             </p>
           </div>
         </div>
+        <div class="mt-12 flex justify-center">
+          <ScrollDownArrow text="" />
+        </div>
       </div>
     </section>
 
@@ -545,7 +534,7 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 
         <div>
           <button
-            class="bg-white/5 border rounded-l-sm border-white/10 text-white text-[1rem] md:text-[1rem] font-bold py-8 px-16 uppercase tracking-[0.2em] hover:border-red-700 transition-all duration-500]"
+            class="bg-white/5 border rounded-l-sm border-white/10 text-white text-[1rem] cursor-pointer md:text-[1rem] font-bold py-8 px-16 uppercase tracking-[0.2em] hover:border-red-700 transition-all duration-500"
           >
             Agendar Minha Consulta
           </button>

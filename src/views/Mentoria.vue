@@ -45,7 +45,7 @@ const credentials = [
 
     <!-- Hero Section -->
     <header
-      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 overflow-hidden"
+      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 pb-32 overflow-hidden"
     >
       <!-- Hero Background Image -->
       <div class="absolute inset-0 z-0 select-none pointer-events-none">
@@ -107,9 +107,9 @@ const credentials = [
           }"
           class="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
-          <ScrollDownArrow text="" />
-        </div>
       </div>
+    </div>
+    <ScrollDownArrow text="" />
     </header>
 
     <!-- Introduction -->
@@ -133,11 +133,8 @@ const credentials = [
           </p>
         </div>
       </div>
-      <div>
-        <ScrollDownArrow
-          class="absolute bottom-10 left-1/2 -translate-x-1/2"
-          text=""
-        />
+      <div class="mt-12 flex justify-center">
+        <ScrollDownArrow text="" />
       </div>
     </section>
 
@@ -288,16 +285,18 @@ const credentials = [
             v-motion-pop-visible
             class="bg-white/5 p-6 rounded-sm text-center border border-white/5"
           >
-            <p class="text-gray-400 text-center align-center text-sm">{{ cred }}</p>
+            <p class="text-gray-400 text-center align-center text-sm">
+              {{ cred }}
+            </p>
           </div>
         </div>
 
         <p class="text-gray-400 max-w-2xl mx-auto leading-relaxed">
           Eu não falo “sobre espiritualidade”. Eu falo a partir dela.<br /><br />
-          Eu já abri caminhos para dezenas de pessoas que não sabiam como
-          lidar com a própria força. Agora eu ensino essa mesma liberdade —
-          sem os abusos, sem as manipulações, sem as correntes invisíveis que
-          prendem tanta gente.
+          Eu já abri caminhos para dezenas de pessoas que não sabiam como lidar
+          com a própria força. Agora eu ensino essa mesma liberdade — sem os
+          abusos, sem as manipulações, sem as correntes invisíveis que prendem
+          tanta gente.
         </p>
       </div>
     </section>
@@ -387,7 +386,7 @@ const credentials = [
         </button>
 
         <p class="mt-12 text-gray-500 text-sm uppercase tracking-widest">
-          Entre quando sentir.
+          Vagas limitadas.
         </p>
       </div>
     </section>

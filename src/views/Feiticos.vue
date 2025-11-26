@@ -62,7 +62,7 @@ const spells = [
 
     <!-- Hero Section -->
     <header
-      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 overflow-hidden"
+      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 pb-32 overflow-hidden"
     >
       <!-- Hero Background Image -->
       <div class="absolute inset-0 z-0 select-none pointer-events-none">
@@ -112,8 +112,8 @@ const spells = [
           class="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
       </div>
-      <ScrollDownArrow text="" />
-      </div>
+    </div>
+    <ScrollDownArrow text="" />
     </header>
 
     <!-- Spells Grid -->

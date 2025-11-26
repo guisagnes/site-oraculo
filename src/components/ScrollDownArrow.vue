@@ -9,11 +9,21 @@ defineProps({
     default: "", // Optional custom icon class or path if needed, but we'll use a slot or default SVG
   },
 });
+
+const scrollToNextSection = (event) => {
+  const currentElement = event.currentTarget;
+  const parentSection = currentElement.closest("section, header");
+
+  if (parentSection && parentSection.nextElementSibling) {
+    parentSection.nextElementSibling.scrollIntoView({ behavior: "smooth" });
+  }
+};
 </script>
 
 <template>
   <div
-    class="flex flex-col items-center gap-2 animate-bounce cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-300"
+    @click="scrollToNextSection"
+    class="flex flex-col items-center gap-2 animate-bounce cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-300 scroll-down-arrow-container"
   >
     <span
       class="text-[0.6rem] uppercase tracking-[0.2em] text-gray-400 font-medium"

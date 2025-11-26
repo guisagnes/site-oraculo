@@ -29,7 +29,7 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 
     <!-- Hero Section -->
     <header
-      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 overflow-hidden"
+      class="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10 pt-20 pb-32 overflow-hidden"
     >
       <!-- Hero Background Image -->
       <div class="absolute inset-0 z-0 select-none pointer-events-none">
@@ -212,7 +212,11 @@ import ScrollDownArrow from "../components/ScrollDownArrow.vue";
     <section class="py-40 px-4 text-center relative overflow-hidden z-10">
       <div class="relative z-10 max-w-3xl mx-auto">
         <p class="text-[1rem] text-white uppercase tracking-[0.3em] font-bold">
-          Cada trilha leva a um ajuste diferente.<br />
+          Cada trilha leva a um ajuste diferente.
+        </p>
+        <p
+          class="text-[1rem] py-4 text-white uppercase tracking-[0.3em] font-bold"
+        >
           Você já sente qual delas é a sua.
         </p>
       </div>
