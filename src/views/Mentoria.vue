@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import heroBg from "../assets/mata-2.png";
+import heroBg from "../assets/knife.png";
 import ScrollDownArrow from "../components/ScrollDownArrow.vue";
 
 const learningPoints = [
